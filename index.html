@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>La China Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div id="top_header">
+        <div id="logo">
+          <p>CHINA</p>
+        </div>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="#about" class="menu_item">About Me</a></li>
+              <li><a href="#work" class="menu_item">My Work</a></li>
+              <li><a href="#contact" class="menu_item">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="banner">
+        <img src="images/space.jpg" alt="space" width="100%">
+      </div>
+      <div>
+        <section id="about" class="regular">
+          <h1>Click somewhere in the galaxy to land on a planet</h1>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estandar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+          <a href="#" class="rounded_button">Read More</a>
+        </section>
+  
+        <section id="work" class="regular">
+          <h2>Work</h2>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+  
+        </section>
+  
+        <section id="contact" class="regular">
+          <h2>Contact Me</h2>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+          <form action="/contact.html" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="FLor" pattern="[a-zA-Z0-9]+" required><br>
+  
+            <label for="user-pw">Password</label>
+            <input type="password" name="user-pw" id="user-pw" placeholder="password" minlength="8" required><br>
+  
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="abc@mail.com"><br>
+  
+            <label for="topics">What topics are you interested in?</label><br>
+            <input type="checkbox" name="topics" id="topics" value="web_design">Web Design<br>
+            <input type="checkbox" name="topics" id="topics" value="coding">Coding<br>
+            
+            <p>How many hours do you want to work?</p>
+            <input type="radio" id="hours" name="hours" value="full_time">
+            <label for="hours">Full-time</label>
+            <input type="radio" id="hours" name="hours" value="part_time">
+            <label for="hours">Part-time</label><br><br></br>
+  
+            <label for="english">What's your level of English?</label>
+            <select id="english" name="english">
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select><br><br>
+  
+            <label for="years">Years of experience:</label>
+            <input id="years" name="years" type="number" min="1" max="20"><br><br>
+  
+            <input type="submit">
+  
+          </form>
+          <br>
+        </section>
+  
+        <section>
+          <table>
+            <tr>
+              <th>Web Design</th>
+              <th>Coding</th>
+            </tr>
+            <tr>
+            </tr>
+          </table>  
+        </section>  
+
+      </div>
+      
+      
+    </main> 
+    <footer>
+      
+    </footer> 
+    <button>Change user</button>
+    <script src="scripts/main.js"></script>
+  </body> 
+</html>
